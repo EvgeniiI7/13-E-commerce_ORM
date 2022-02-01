@@ -2,19 +2,23 @@ const { Category } = require('../models');
 
 const categoryData = [
   {
-    category_name: 'Shirts',
+    category_name: 'Cell phones',
   },
+
   {
-    category_name: 'Shorts',
+    category_name: 'Computers',
   },
+
   {
-    category_name: 'Music',
+    category_name: 'HeadPhones',
   },
+
   {
-    category_name: 'Hats',
+    category_name: 'Cameras',
   },
+
   {
-    category_name: 'Shoes',
+    category_name: 'Tvs',
   },
 ];
 

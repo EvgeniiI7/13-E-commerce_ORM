@@ -7,6 +7,8 @@ const sequelize = require('../config/connection');
 class Product extends Model {}
 
 // set up fields and rules for Product model
+// define columns
+
 Product.init(
   {
     id: {
@@ -42,6 +44,7 @@ Product.init(
       }
     }
   },
+  // sequelize product
   {
     sequelize,
     timestamps: false,

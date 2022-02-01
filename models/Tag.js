@@ -1,9 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection.js');
-
 class Tag extends Model {}
 
+// tags id , tag name
 Tag.init(
   {
     id: {
@@ -16,6 +15,7 @@ Tag.init(
       type: DataTypes.STRING
     }
   },
+  // sequelize tags
   {
     sequelize,
     timestamps: false,
