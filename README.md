@@ -110,5 +110,7 @@ After it,  you can run all seeds fails using  the command line from Seeds folder
 
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 
+https://drive.google.com/file/d/1R45TsYW_2p7R8cx5ScEzvvnE8ihk9x5C/view?usp=sharing
 
 * The URL of the GitHub repository:
+
