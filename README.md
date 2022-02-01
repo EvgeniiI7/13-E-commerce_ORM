@@ -1,14 +1,12 @@
 
 # E-commerce_ORM (Back End)
 
-```
 This is a back-end E-commerce site using Express.js API, which has been configured with Sequelize in order to interact with a MySL database.
 
 ## User Story
 
-```md
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
+```
+AS A manager at an internet retail company i want a back end for my e-commerce website that uses the latest technologies.
 SO THAT my company can compete with other e-commerce companies
 ```
 
