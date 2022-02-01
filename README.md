@@ -27,9 +27,9 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## to get Get Started you need to install some dependencies:
-* npm install express sequelize mysql2
-* npm istall express
-* npm install dotenv
+*  ``` npm install express sequelize mysql2 ```
+*   ```npm istall express ```
+*  ``` npm install dotenv ```
 
 * to invoke the aplication please tipe:
  ``` npm run start```
