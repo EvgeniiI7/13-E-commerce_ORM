@@ -26,31 +26,17 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Mock-Up
+## to get Get Started you need to install some dependencies:
+* npm install express sequelize mysql2
+* npm istall express
+* npm install dotenv
 
-The following animations show examples of the application's API routes being tested in Insomnia Core.
-
-The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
-
-![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
-
-![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
-
-![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core.
-
-
-## Getting Started
-
-You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
-Use the `schema.sql` file in the `db` folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
+* to invoke the aplication please tipe:
+ ``` npm run start```
+it's will connected to the Database. App will listening on port 3001! 
+After it,  you can run all seeds fails using  the command line from Seeds folder, please tipe:
+ ``` node index.js ```
+ 
 ### Database Models
 
 Your database should contain the following four models, including the requirements listed for each model:
