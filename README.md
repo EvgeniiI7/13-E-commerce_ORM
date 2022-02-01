@@ -1,8 +1,8 @@
-```
+
 # E-commerce_ORM (Back End)
 
 ```
-
+This is a back-end E-commerce site using Express.js API, which has been configured with Sequelize in order to interact with a MySL database.
 
 ## User Story
 
